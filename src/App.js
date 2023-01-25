@@ -18,10 +18,8 @@ function App() {
                 const studentList = data
                 setStudents(studentList);
             })
-    })
-function updateStudent(students){
-    setStudents(students)
-}
+    },[])
+
 
 
 
@@ -31,7 +29,7 @@ function updateStudent(students){
             <div className="container text-center mt-4">
             <h1 className='text-center fw-bold'> Your Ultimate To-Do List</h1>
             <ToDo/>
-            <StudentDisplay students={students} updateStudent={updateStudent}/>
+            <StudentDisplay students={students} />
             </div>
             
         </>
