@@ -7,7 +7,7 @@ export default function StudentDisplay(props) {
 
   return (
     <div>
-        <h1 className='text-center my-3'> Kekambas Students </h1>
+        <h1 className='text-center my-3 text-success shadow-lg bg-dark-subtle'> Kekambas Students </h1>
 
         <table className="table table-dark table-hover">
             <thead>
